@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F5F6;
+}
+
+#veb2 {
+    display: flex;
+    list-style: none;
+}
+
+#veb2 li {
+    font-weight: 500;
+    font-size: 11px;
+    padding: 18px
+}
+
+.lahiye {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cixis {
+    font-weight: 500;
+    font-size: 11px;
+    width: 58px;
+    height: 30px;
+    background-color: white;
+    border-radius: 4px;
+    border-color: white;
+}
+
+#valyutalist1 {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    border-radius: 3px;
+    height: 30px;
+    font-weight: 400px;
+    font-size: 12px;
+    color: #C6C6C6;
+}
+
+#valyutalist1 li {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid gray;
+}
+
+#valyutalist2 li {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid gray;
+}
+
+#valyutalist2 {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    border-radius: 3px;
+    height: 30px;
+    font-weight: 400px;
+    font-size: 12px;
+    color: #C6C6C6;
+}
+
+.main li {
+    border: 1px solid #E5E5E5;
+    padding: 8px 19px 8px 19px;
+}
+
+.veb1 {
+    width: 250px;
+
+}
+
+.veb {
+    padding: 10px;
+}
+
+.div1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.esas1 {
+    font-weight: 700px;
+    font-size: 36px;
+}
+
+.p1 {
+    font-weight: 400px;
+    font-size: 12px;
+    color: #9f9f9f;
+}
+
+.div3 {
+    width: 250px;
+    height: 105px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.div4 {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+.div5 {
+    font-weight: 400px;
+    font-size: 12px;
+    color: #C6C6C6;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.p2 {
+    font-weight: 400px;
+    font-size: 12px;
+    color: #9F9F9F;
+}
+
+.divesas {
+    width: 250px;
+    height: 105px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.input1 {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.pson1 {
+    font-weight: 400px;
+    font-size: 12px;
+    color: #C6C6C6;
+    margin-top: 35px;
+    margin-left: 10px
+}
+
+.dollar {
+    color: #959BA4;
+}

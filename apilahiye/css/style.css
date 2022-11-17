@@ -12,18 +12,18 @@
     background-color: #F5F5F6;
 }
 
-#veb2 {
+#list {
     display: flex;
     list-style: none;
 }
 
-#veb2 li {
+#list li {
     font-weight: 500;
     font-size: 11px;
     padding: 18px
 }
 
-.lahiye {
+.main {
     margin-top: 35px;
     display: flex;
     justify-content: space-between;
@@ -45,19 +45,9 @@
     list-style: none;
     border-radius: 3px;
     height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 12px;
     color: #C6C6C6;
-}
-
-#valyutalist1 li {
-    padding: 5px 20px 5px 20px;
-    border: 1px solid gray;
-}
-
-#valyutalist2 li {
-    padding: 5px 20px 5px 20px;
-    border: 1px solid gray;
 }
 
 #valyutalist2 {
@@ -66,7 +56,7 @@
     list-style: none;
     border-radius: 3px;
     height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 12px;
     color: #C6C6C6;
 }
@@ -76,33 +66,28 @@
     padding: 8px 19px 8px 19px;
 }
 
-.veb1 {
-    width: 250px;
-
+.currency-item :active {
+    background-color: darkblue;
 }
 
-.veb {
-    padding: 10px;
-}
-
-.div1 {
+.converter {
     width: 50%;
     margin: auto;
     margin-top: 100px;
 }
 
-.esas1 {
+.h1 {
     font-weight: 700px;
     font-size: 36px;
 }
 
-.p1 {
+.p11 {
     font-weight: 400px;
     font-size: 12px;
-    color: #9f9f9f;
+    color: #9F9F9F;
 }
 
-.div3 {
+.div22 {
     width: 250px;
     height: 105px;
     border: 1px solid #E5E5E5;
@@ -110,7 +95,7 @@
     margin-top: 20px;
 }
 
-.div4 {
+#input1 {
     border: none;
     height: 50px;
     width: 100%;
@@ -118,7 +103,7 @@
     font-size: 30px;
 }
 
-.div5 {
+#p1 {
     font-weight: 400px;
     font-size: 12px;
     color: #C6C6C6;
@@ -126,13 +111,13 @@
     margin-left: 10px;
 }
 
-.p2 {
+.p33 {
     font-weight: 400px;
     font-size: 12px;
     color: #9F9F9F;
 }
 
-.divesas {
+.divson {
     width: 250px;
     height: 105px;
     border: 1px solid #E5E5E5;
@@ -140,22 +125,50 @@
     margin-top: 20px;
 }
 
-.input1 {
+#input2 {
     border: none;
     height: 50px;
     width: 100%;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 30px;
 }
 
-.pson1 {
+#p2 {
     font-weight: 400px;
     font-size: 12px;
     color: #C6C6C6;
     margin-top: 35px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
-.dollar {
-    color: #959BA4;
+.active{
+    background-color: darkblue;
+    color: white;
 }
+.currency-item {
+    border-radius: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* @media (min-width: 992px) and (max-width: 1279px) {
+
+    #list li {
+        font-weight: 500;
+        font-size: 11px;
+        padding: 18px
+    }
+
+
+
+
+
+
+
+} */
